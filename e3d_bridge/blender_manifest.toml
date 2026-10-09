@@ -1,0 +1,20 @@
+schema_version = "1.0.0"
+
+id = "e3d_bridge"
+version = "0.3.2"
+name = "E3D Bridge"
+tagline = "One-click OBJ, MTL and texture export for Element 3D"
+maintainer = "Dom <planksofwood@gmail.com>"
+type = "add-on"
+website = "https://diskolabs.org/blog/blender-to-element-3d-exporter-free"
+
+blender_version_min = "4.2.0"
+
+license = ["SPDX:GPL-3.0-or-later"]
+
+tags = ["Import-Export"]
+
+[permissions]
+files = "Write OBJ, MTL, textures and report files to the export folder"
+
+# No wheels, no pip dependencies. Pure bpy + bundled numpy.

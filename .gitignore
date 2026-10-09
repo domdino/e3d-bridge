@@ -1,0 +1,13 @@
+# internal / local-only
+NOTES.md
+blender-to-e3d-plan.md
+docs/
+dist/
+e3d_probe_kit/
+*.zip
+tests/out/
+tests/samples/
+__pycache__/
+*.pyc
+.DS_Store
+*.blend1
