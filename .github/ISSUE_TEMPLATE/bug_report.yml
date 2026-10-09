@@ -1,0 +1,30 @@
+name: Bug report
+description: Something exported wrong, or the add-on errored
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you expected, and what you got instead (in Blender or in Element 3D).
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: Blender and E3D Bridge versions
+      placeholder: "Blender 4.5.3, E3D Bridge 0.3.2"
+    validations:
+      required: true
+  - type: textarea
+    id: report
+    attributes:
+      label: report.txt
+      description: Paste the report.txt from your export folder (or attach it). It lists every material and warning.
+      render: text
+  - type: textarea
+    id: error
+    attributes:
+      label: Error message (if any)
+      description: Copy it from Blender's Info area or the system console.
+      render: text
